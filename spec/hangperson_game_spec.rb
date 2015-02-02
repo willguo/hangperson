@@ -18,7 +18,7 @@ describe HangpersonGame do
     context 'correctly' do
       before :each do
         @game = HangpersonGame.new('garply')
-        @correct = @game.guess('a')
+        @valid = @game.guess('a')
       end
       it 'changes correct guess list', :pending => true do
         @game.guesses.should == 'a'
