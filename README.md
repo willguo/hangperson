@@ -313,11 +313,6 @@ repo all along.
 Deploy your app to Heroku and verify that going to
 `http://sinatra-demo.herokuapp.com/` shows your Hello World page.
 
-What to submit
---------------
-
-Submit the URL to your Heroku-deployed toy app. 
-
 Summary
 -------
 
@@ -452,12 +447,6 @@ no form fields are needed; however `--data` is necessary to force `curl`
 to do a POST rather than a GET.) 
 Using `curl` is a great way to experiment with/debug interactions with
 external services.
-
-What to submit
---------------
-
-Submit your `hangperson_game.rb` file.  We'll run all the same tests we
-provided you with, plus a few more.
 
 
 RESTful thinking for HangPerson
