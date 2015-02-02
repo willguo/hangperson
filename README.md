@@ -674,12 +674,28 @@ it can conditionally redirect to the `win` or `lose` action when called.
 game, based on the description of what the route should do; we've
 provided the first one.
 
-Show game state, allow player to enter guess; may redirect to Win or Lose  |  GET /show
-Display form that can generate `POST /create`   |  GET /new
-Start new game; redirects to Show Game after changing state   |  POST /create
-Process guess; redirects to Show Game after changing state | POST /guess
-Show "you win" page with button to start new game | GET /win
-Show "you lose" page with button to start new game | GET /lose
+<table>
+<tr>
+<td>
+Show game state, allow player to enter guess; may redirect to Win or
+Lose  </td>
+<td>GET /show</td>
+</tr>
+<tr>
+<td>Display form that can generate `POST /create`   </td><td>  GET /new</td>
+</tr>
+<tr><td>Start new game; redirects to Show Game after changing
+state</td><td>  POST /create</td></tr>
+<tr><td>
+Process guess; redirects to Show Game after changing state </td><td>POST
+/guess</td></tr>
+<tr><td>
+Show "you win" page with button to start new game </td><td>GET
+/win</td></tr>
+<tr><td>
+Show "you lose" page with button to start new game </td><td>GET
+/lose</td></tr>
+</table>
 
 
 ## Summary of the design
