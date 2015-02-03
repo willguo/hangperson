@@ -849,12 +849,12 @@ part of the test.
 
 As an integration testing tool,
 Cucumber can be used to test almost any kind of software system as long
-as there is a way to *stimulate* the system and a way to *inspect* the
+as there is a way to *simulate* the system and a way to *inspect* the
 system's behavior.  
 You select a *back end* for Cucumber based on how the end system is to
-be stimulated and inspected.
+be simulated and inspected.
 
-Since a SaaS server is stimulated by issuing HTTP
+Since a SaaS server is simulated by issuing HTTP
 requests, and its behavior can be inspected by looking at the HTML pages
 served, we configure Cucumber to use 
 [Capybara](https://github.com/jnicklas/capybara), a 
@@ -863,7 +863,7 @@ for simulating browser actions and inspecting the SaaS server's
 responses to those actions.
 
 * Self-check: read the section on "Using Capybara with Cucumber" on
-Capybara's home page.  Which step definitions use Capybara to stimulate
+Capybara's home page.  Which step definitions use Capybara to simulate
 the server as a browser would?  Which step definitions use Capybara to
 inspect the app's response to the stimulus?
 
