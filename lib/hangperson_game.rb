@@ -24,6 +24,8 @@ class HangpersonGame
 
   def guess(letter)
 
+    letter.downcase!
+    
     if (letter.nil?)
       raise ArgumentError
     end
