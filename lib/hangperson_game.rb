@@ -24,7 +24,7 @@ class HangpersonGame
 
   def guess(letter)
 
-    letter.downcase!
+    #letter.downcase!
     
     if (letter.nil?)
       raise ArgumentError
@@ -33,6 +33,8 @@ class HangpersonGame
     if (letter.length <= 0 or !(letter =~ /[[:alpha:]]/))
       raise ArgumentError
     end
+
+    letter.downcase!
 
     if @word.include? letter
       if !@guesses.include? letter
